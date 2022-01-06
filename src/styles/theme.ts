@@ -1,6 +1,7 @@
 export default {
   grid: {
-    container: '100rem'
+    container: '100rem',
+    gutter: '3.2rem'
   },
   colors: {
     highlight: '#e20e8d',
