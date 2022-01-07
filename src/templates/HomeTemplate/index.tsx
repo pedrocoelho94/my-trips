@@ -4,13 +4,14 @@ import dynamic from 'next/dynamic'
 const Map = dynamic(() => import('components/Map'), { ssr: false })
 
 import { InfoOutline } from '@styled-icons/evaicons-outline/InfoOutline'
+import { MapProps } from 'components/Map'
 
-const HomeTemplate = () => (
+const HomeTemplate = ({ places }: MapProps) => (
   <>
     <LinkWrapper href="/about">
       <InfoOutline size={32} aria-label="about" />
     </LinkWrapper>
-    <Map />
+    <Map places={places} />
   </>
 )
 

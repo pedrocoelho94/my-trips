@@ -16,6 +16,7 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;
     background: ${theme.colors.background};
     color: ${theme.colors.white};
+
   }
 
   body {

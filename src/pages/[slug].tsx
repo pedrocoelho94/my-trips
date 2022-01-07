@@ -24,9 +24,7 @@ export async function getStaticPaths() {
   return { paths, fallback: true }
 }
 
-export const getStaticProps: GetStaticProps<PageTemplateProps> = async (
-  ctx
-) => {
+export const getStaticProps: GetStaticProps = async (ctx) => {
   const { page } = await client.request<GetPageBySlugQuery>(GET_PAGE_BY_SLUG, {
     slug: `${ctx.params?.slug}`
   })
