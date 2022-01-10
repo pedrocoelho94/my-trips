@@ -12,7 +12,7 @@
 <br>
 
 <p align="center">
-  <img alt="Em breve uma screenshot" src="/img/preview.JPG" width="100%">
+  <img alt="Em breve uma screenshot" src="/public/img/preview.JPG" width="100%">
 </p>
 
 <br>
